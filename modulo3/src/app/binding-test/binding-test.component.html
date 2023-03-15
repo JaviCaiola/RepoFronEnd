@@ -1,0 +1,17 @@
+<h1>Test de Binding</h1>
+
+<div>
+    <div>
+        <h3>Rellenando Huecos</h3>
+        <div>
+            relleno:<input placeholder="Ingrese su nombre" type="text" [(ngModel)]="cosa" />
+        </div>
+    </div>
+
+    <div>
+        <div>
+            Tú relleno es: <b>{{cosa}}</b> y tiene {{cosa.length}} <b>letras</b>,
+            esto es mágia.
+          </div>
+    </div>
+</div>
